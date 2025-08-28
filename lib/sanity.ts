@@ -5,8 +5,7 @@ export const client = createClient({
   dataset: process.env.NEXT_PUBLIC_SANITY_DATASET || 'production',
   useCdn: true,
   apiVersion: '2024-01-01',
-  token: process.env.SANITY_API_TOKEN, // Token opcional para acessar dados privados
-  withCredentials: true, // Permite enviar credenciais com as requisições
+  // Removido withCredentials e token para resolver problemas de CORS
 });
 
 export interface GameLink {
