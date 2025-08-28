@@ -23,14 +23,9 @@ export default function Footer() {
             <span className="text-gray-400 text-sm">e</span>
             <Code size={16} className="text-blue-400" />
             <span className="text-gray-400 text-sm">por</span>
-            <a 
-              href="https://github.com/WalissonVinicius" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-blue-400 hover:text-blue-300 transition-colors duration-200 hover:underline font-medium"
-            >
+            <span className="text-blue-400 font-medium">
               Walisson
-            </a>
+            </span>
             <span className="text-gray-400 text-sm">para a comunidade gamer</span>
           </motion.div>
           
