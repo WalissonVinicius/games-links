@@ -17,3 +17,25 @@ Catálogo leve e responsivo com **links de jogos on-line**, organizado por categ
 npm install
 npm run dev
 # http://localhost:3000
+
+
+Variáveis de ambiente (se usar Sanity)
+SANITY_PROJECT_ID=...
+SANITY_DATASET=production
+SANITY_API_VERSION=2023-10-01
+
+🛠️ Scripts
+
+dev — ambiente de desenvolvimento
+
+build — build de produção
+
+start — servir build (quando aplicável)
+
+☁️ Deploy
+
+Recomendado: Vercel (detecta Next.js automaticamente)
+
+📄 Licença
+
+MIT
