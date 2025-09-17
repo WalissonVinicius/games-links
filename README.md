@@ -1,9 +1,6 @@
 # 🎮 Games Links
 
-## 🖼️ Preview
-
 ![Home](public/home-preview.png)
-
 
 Catálogo leve e responsivo com **links de jogos on-line**, organizado por categorias e plataformas. Inclui busca e filtros para achar rapidamente o que jogar.
 
