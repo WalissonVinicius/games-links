@@ -1,41 +1,66 @@
 # 🎮 Games Links
 
-Catálogo leve e responsivo com **links de jogos on-line**, organizado por categorias e plataformas.
+## 🖼️ Preview
 
-🔗 **Demo:** https://www.jogos.walisson.dev  
-📦 Stack: **Next.js**, **TypeScript**, **Tailwind CSS**, **(opcional) Sanity CMS**
+![Home](public/home-preview.png)
+
+
+Catálogo leve e responsivo com **links de jogos on-line**, organizado por categorias e plataformas. Inclui busca e filtros para achar rapidamente o que jogar.
+
+🔗 **Live/Demo:** veja o link em **About → Website** do repositório 
+
+🧰 **Stack:** Next.js · React · TypeScript · Tailwind CSS · (opcional) Sanity CMS
+
+---
 
 ## ✨ Recursos
-- Lista de jogos com **busca** e **filtros** por tags/plataformas  
-- Páginas estáticas rápidas (Next.js)  
-- UI responsiva e acessível  
-- (Opcional) Conteúdo via **Sanity** (`sanity-schema.js`)
+- 🔎 **Busca** + **filtros** por tags/plataformas
+- ⚡ Páginas rápidas (Next.js / SSG)
+- 📱 **Responsivo** e acessível
+- 🗂️ (Opcional) conteúdo gerenciado via **Sanity**
 
-## 🚀 Rodando localmente
+## 🚀 Como rodar localmente
+Requisitos: **Node 18+** e **npm** (ou pnpm/yarn)
+
 ```bash
-# Requisitos: Node 18+
 npm install
 npm run dev
 # http://localhost:3000
 
+```
 
-Variáveis de ambiente (se usar Sanity)
+## ⚙️ Variáveis de ambiente (Sanity — opcional)
+
+Se você utilizar Sanity, crie um `.env.local` com:
+
+```bash
 SANITY_PROJECT_ID=...
 SANITY_DATASET=production
 SANITY_API_VERSION=2023-10-01
 
-🛠️ Scripts
+```
 
-dev — ambiente de desenvolvimento
+## 🛠️ Scripts úteis
 
-build — build de produção
+- `dev` – desenvolvimento
+- `build` – build de produção
+- `start` – servir o build (quando aplicável)
+- `lint` – (se configurado) checagens de lint
 
-start — servir build (quando aplicável)
+## ☁️ Deploy
 
-☁️ Deploy
+- **Vercel** recomendado (detecta Next.js automaticamente).
+- Configure variáveis de ambiente do Sanity no painel do provedor (se usar CMS).
 
-Recomendado: Vercel (detecta Next.js automaticamente)
 
-📄 Licença
+## 📄 Licença
 
-MIT
+MIT — veja o arquivo `LICENSE` (ajuste se sua licença for diferente).
+
+## 🤝 Contribuindo
+
+1. Faça um fork
+2. Crie uma branch: `git checkout -b feat/minha-feature`
+3. Commit: `git commit -m "feat: minha feature"`
+4. Push: `git push origin feat/minha-feature`
+5. Abra um PR
